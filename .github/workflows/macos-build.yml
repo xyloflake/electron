@@ -19,7 +19,7 @@ env:
 
 jobs:
   checkout:
-    runs-on: LargeLinuxRunner
+    runs-on: linux
     steps:
     - name: Checkout Electron
       uses: actions/checkout@v4
